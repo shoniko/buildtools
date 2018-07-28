@@ -47,7 +47,7 @@ process.stdin.on("end", () =>
         filename: bundle_name
       },
       node: {
-        global: false
+        global: true
       },
       resolve: {
         modules: resolve_paths,
